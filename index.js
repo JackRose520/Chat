@@ -13,5 +13,5 @@ io.on('connection', function(socket){
 });
 
 http.listen(3000, function(){      //竊聽3000 port
-  console.log('listening on *:3000'); //印出listen訊息
+  console.log('listening on *:3000'); //印出listen完成訊息
 });
